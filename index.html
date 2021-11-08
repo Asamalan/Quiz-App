@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- TODO(you): Make whatever changes needed to complete the assignment! -->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Quiz</title>
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+    <link href="https://fonts.googleapis.com/css?family=Pangolin:400,700|Proxima+Nova" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!--
+
+    ******************************************
+    DO NOT TRANSCRIBE THE ARTICLE YOURSELF!!!!
+    ******************************************
+
+    You do not have to type in all of the text on the page!
+
+    The contents of the article is in `index-content.txt`, which is
+    included in this directory. Copy and paste the contents of that file into
+    this HTML file as needed. You should only need to add HTML to markup the
+    content.
+
+  -->
+
+    <header>
+      <div class="wpr">WPR</div>
+      <div class="mern">
+        <div class="mern-item">M</div>
+        <div class="mern-item">E</div>
+        <div class="mern-item">R</div>
+        <div class="mern-item">N</div>
+        </div>
+    </header>
+
+    <article>
+
+        <section id="quiz-name">
+            <div class="title">
+                <h1>HTML Quiz</h1>
+            </div>
+            <p class="author">By Phi Nhat Anh a.k.a John Asamalan</p>
+        </section>
+
+        <section id="introduction">
+          <h2 class="top18px">The Test</h2>
+          <p class="top18px">
+              The test contains 10 questions and there is no time limit.
+          </p>
+          <p class="top18px">
+              The test is not official, it's just a nice way to see how much you know, or don't know, about HTML.
+          </p>
+
+          <h2 class="top18px">Count Your Score</h2>
+          <p class="top18px">
+              You will get 1 point for each correct answer. At the end of the Quiz, your total score will be
+              displayed. Maximum score is 10 points.
+          </p>
+            <div class="greybackground top18px">
+                <h2>Start the quiz</h2>
+                <p class="top18px">Good luck!</p>
+                <button class="start-button">Start the HTML quiz ❯</button>
+            </div>
+        </section>
+
+        <section id="attempt-quiz">
+        </section>
+        <div class="greybackground reveal-button hidden">
+            <button class="submit-button">Submit your answers ❯</button>
+        </div>
+
+        <section class="review-quiz hidden">
+            <div class="greybackground">
+                <h2>Result</h2>
+                <p class="counter"></p>
+                <strong class="percentage"></strong>
+                <p class="feedback"></p>
+                <button class="retry-button" onclick="location.reload()">Try again</button>
+            </div>
+        </section>
+
+    </article>
+</body>
+
+</html>
